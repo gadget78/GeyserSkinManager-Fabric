@@ -91,7 +91,7 @@ jar {
 
 remapJar {
 	dependsOn(shadowJar)
-	inputFile.set(shadowJar.get().archiveFile)	
+	input = tasks.shadowJar.archiveFile
 }
 
 // configure the maven publication
