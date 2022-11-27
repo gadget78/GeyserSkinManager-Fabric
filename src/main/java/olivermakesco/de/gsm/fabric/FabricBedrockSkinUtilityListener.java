@@ -4,7 +4,6 @@ import com.github.camotoy.geyserskinmanager.common.SkinDatabase;
 import com.github.camotoy.geyserskinmanager.common.platform.BedrockSkinUtilityListener;
 import com.github.camotoy.geyserskinmanager.common.skinretriever.BedrockSkinRetriever;
 import io.netty.buffer.Unpooled;
-import net.fabricmc.fabric.api.network.ServerSidePacketRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.server.MinecraftServer;
