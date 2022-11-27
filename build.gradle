@@ -91,7 +91,11 @@ jar {
 
 remapJar {
 	dependsOn(shadowJar)
-	shadowJar.archiveFile.get()
+	inputFile.set(shadowJar.get().archiveFile)
+	archiveBaseName.set("GeyserMC.Skinmanager-fabric")
+    archiveClassifier.set("")
+	archiveVersion.set("")
+	
 }
 
 // configure the maven publication
